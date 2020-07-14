@@ -1,8 +1,11 @@
 /* Style the navigation bar */
 .navbar {
-    width: 100%;
-    background-color: #DCC2C2;
-    overflow: auto;
+    position: absolute;
+    width: 1440px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    background: rgba(220, 194, 194, 0.73);
   }
   
   /* Navbar links */
@@ -10,14 +13,14 @@
     float: right;
     text-align: center;
     padding: 12px;
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
   }
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color: #000;
+    background-color: white;
   }
   
   /* Current/active navbar link */
@@ -26,5 +29,29 @@
   } */
   
   h1 {
-      font: 100px;
+    position: absolute;
+    width: 485px;
+    height: 578px;
+    left: 121px;
+    top: 176px;
+    
+    font-family: Cambo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 162px;
+    
+    color: rgba(0, 0, 0, 0.72);
   }
+
+  /* Background Picture*/
+
+  /* body {
+    position: absolute;
+    width: 1440px;
+    height: 815px;
+    left: 0px;
+    top: 85px;
+    
+    background: url(IMG_8420.jpg);
+  } */
