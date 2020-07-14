@@ -7,7 +7,7 @@
     top: 0px;
     background: rgba(220, 194, 194, 0.73);
   }
-  
+
   /* Navbar links */
   .navbar a {
     float: right;
@@ -41,17 +41,14 @@
     font-size: 144px;
     line-height: 162px;
     
-    color: rgba(0, 0, 0, 0.72);
+    color: black;
   }
 
   /* Background Picture*/
 
-  /* body {
-    position: absolute;
-    width: 1440px;
-    height: 815px;
-    left: 0px;
-    top: 85px;
-    
-    background: url(IMG_8420.jpg);
-  } */
+   body {
+    background-image: url("IMG_8420.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+  } 
