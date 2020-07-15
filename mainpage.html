@@ -3,7 +3,21 @@
 
     <head>
         <title>Hello, Mayra</title>
-        <link rel="stylesheet" type="text/css" href="website.css">
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="website.css">
+
+        <!-- Adjusts window according to the window size adjustments -->
+        <script type="text/javascript">
+            function layoutHandler() {
+                var styleLink = document.getElementById("pagestyle");
+                if (window.innerWidth < 1200) {
+                    styleLink.setAttribute("href", "mediumSize.css");
+                } else {
+                    styleLink.setAttribute("href", "website.css");
+                }
+            }
+            window.onresize = layoutHandler;
+            layoutHandler();
+        </script>
     </head>
 
 <body>
