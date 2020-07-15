@@ -5,7 +5,7 @@
     height: 85px;
     left: 0px;
     top: 0px;
-    background: rgba(220, 194, 194, 0.73);
+    background: rgba(220, 194, 194);
   }
 
   /* Navbar links */
@@ -47,8 +47,7 @@
   /* Background Picture*/
 
    body {
-    background-image: url("IMG_8420.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("IMG_8420.jpg");
     background-attachment: fixed;
     background-size: cover;
-
   } 
