@@ -1,11 +1,15 @@
 /* Style the navigation bar */
 .navbar {
     position: absolute;
-    width: 1000px;
-    height: 85px;
+    width: 100%;
+    height: 75px;
     left: 0px;
     top: 0px;
     background: rgba(220, 194, 194);
+  }
+
+  .navbar div{
+    margin-right: 25px;
   }
 
   /* Navbar links */
@@ -26,7 +30,7 @@
   
   h1 {
     position: absolute;
-    width: 400px;
+    width: 50%;
     height: 578px;
     left: 121px;
     top: 176px;
@@ -34,7 +38,7 @@
     font-family: Cambo;
     font-style: normal;
     font-weight: normal;
-    font-size: 144px;
+    font-size: 100px;
     line-height: 162px;
     
     color: black;

@@ -1,13 +1,16 @@
 /* Style the navigation bar */
 .navbar {
+    margin-right: 15px;
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 85px;
     left: 0px;
     top: 0px;
     background: rgba(220, 194, 194);
   }
-
+  .navbar div{
+    margin-right: 25px;
+  }
   /* Navbar links */
   .navbar a {
     float: right;
