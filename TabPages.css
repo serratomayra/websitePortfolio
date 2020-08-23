@@ -28,22 +28,6 @@
     background-color: white;
   }
 
-  h1 {
-    position: absolute;
-    width: 800px;
-    height: 578px;
-    left: 121px;
-    top: 176px;
-    
-    font-family: Cambo;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 162px;
-    
-    color: black;
-  }
-
 /* Social Media Icons */
 
   h2 {
@@ -55,40 +39,69 @@
     margin-bottom: 0;
   } 
 
-  .icons-name {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 50px;
-  } 
-
   ul {
     margin: 0px;
     padding: 0px;
     text-align: center;
   }  
-
+  
   ul li {
     width: 50px;
     height: 50px;
     text-align: center;
     background: white;
-    border-radius: 100%; /* Roundness around icon */
+    border-radius: 100%; /*Roundness around icon*/
     margin: 0px 10px;
     font-size: 30px;
     line-height: 50px;
     display: inline-block;
     border: .5px solid black;
-  }
-
+  } 
+  
   .fa-linkedin {
     color: #0077B5;
   }
-
+  
   .fa-instagram {
     color: palevioletred;
   }
-
+  
   .fa-github {
     color: black;
   }
+  
+   /* Footer */
+  
+   .footer {
+     background: rgba(220, 194, 194);
+     color: black;
+     height: 150px;
+     width: 100%;
+     position: relative;
+   }
+  
+   .footer .footer-content {
+     height: 100%;
+     display: flex;
+   }
+  
+   .footer .footer-content .footer-section {
+    flex: 1px;
+    padding: 25px;
+   }
+  
+   .footer .footer-bottom {
+     background: rgba(220, 194, 194);
+     color: black;
+     height: 50px;
+     width: 100%;
+     text-align: center;
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     padding-top: 20px;
+   }
+  
+   .page-wrapper {
+     min-height: 100%;
+   }
