@@ -28,6 +28,16 @@
     background-color: white;
   }
 
+  /* Background Picture*/
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("backgpic.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+  } 
+
 /* Social Media Icons */
 
   h2 {
